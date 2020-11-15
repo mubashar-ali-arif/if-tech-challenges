@@ -1,0 +1,13 @@
+Provide the schema and content for Postgres 9.6 or higher, including instructions on how to import it into a local database.
+	Using Pg Admin 4 UI
+		1. Open/select the database in PgAdmin4
+		2. In the top menu, Click Tools, Query Tool
+		3. Click the left most icon in Query Tool and select the <DIR>\DBImport\dbexport.sql file provided.
+		4. Click Select
+		5. To run, Click the Play/Execute icon or press F5.
+	Using console:
+		1. Open terminal
+		2. Create new database if you wish to
+		3. Type psql -U <USER_NAME> <DATABASE_NAME> < dbexport.sql
+		4. Key in password.
+
