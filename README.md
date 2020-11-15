@@ -1,2 +1,2 @@
 # if-tech-challenges
-Code Challenges
+Coding Challenges
